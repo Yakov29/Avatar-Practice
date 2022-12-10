@@ -1,0 +1,140 @@
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.switch input {
+  display:none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+header{
+  background-image: url(./../images/Rectangle\ 1.png);
+}
+
+header .container{
+  outline: 10px solid green;
+  display: flex;
+  padding-top: 24px;
+}
+
+.switch-list{
+display: flex;
+margin-left: auto;
+}
+
+.hero-container{
+  width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    outline: green 10px solid;
+    display: block;
+    margin-top: 168px;
+}
+
+.title-list{
+  display: block;
+  width: 376px;
+}
+
+.title-list_item{
+  margin-top: 24px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.title-button{
+width: 260px;
+height: 80px;
+background: #0B0E66;
+border: 3px solid #26C7EA;
+border-radius: 45px 0px;
+font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+margin-top: 50px;
+color: #26C7EA;
+
+}
+
+.arrow{
+  position: absolute;
+  top: 70px;
+  left: 87px;
+}
+
+.svg-hero-list{
+  display: block;
+  position: absolute;
+  width: 30px;
+  top: 0;
+  right: 10px;
+}
+
+.svg-hero-item{
+  margin-top: 20px;
+  fill: #FFFFFF;
+}
