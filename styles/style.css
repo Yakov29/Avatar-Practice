@@ -65,7 +65,6 @@ header{
 }
 
 header .container{
-  outline: 10px solid green;
   display: flex;
   padding-top: 24px;
 }
@@ -82,9 +81,10 @@ margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
-    outline: green 10px solid;
+    /* outline: green 10px solid; */
     display: block;
     margin-top: 168px;
+    padding-bottom: 19px;
 }
 
 .title-list{
