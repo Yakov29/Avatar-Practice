@@ -1,7 +1,7 @@
 body{
     font-family: 'Inter';
     color: #FFFFFF;
-    width: 1360px;
+    /* width: 1360px; */
 }
 
 a{
@@ -16,6 +16,8 @@ ul{
 
 p{
     margin: 0;
+    
+
 }
 
 h1,h2,h3,h4,h5,h6{
